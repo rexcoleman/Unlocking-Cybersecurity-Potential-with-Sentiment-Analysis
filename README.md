@@ -17,7 +17,7 @@ Sentiment analysis is a pivotal tool in cybersecurity, leveraging natural langua
    - [2.2 Building the Emojifier](#22-building-the-emojifier)
    - [2.3 Achievements and Results](#23-achievements-and-results)
 3. [Conclusion](#3-conclusion)
-4. [Citations](#citations)
+4. [References](#references)
 
 # 1. Introduction
 Sentiment analysis, a subfield of natural language processing (NLP), is a powerful tool for understanding and categorizing emotions expressed in textual data. In cybersecurity, sentiment analysis plays a crucial role in detecting potential threats, understanding employee sentiments, and monitoring public perception. This report explores the various applications of sentiment analysis in cybersecurity, with a specific focus on the Emojify project, which demonstrates the practical application of NLP techniques and sequence models in real-world cybersecurity scenarios.
@@ -46,73 +46,36 @@ Understanding employee sentiments can be crucial for internal security measures.
 Sentiment analysis can play a role in detecting fraudulent activities by analyzing communication patterns. By analyzing sentiments in customer communications, organizations can detect potential fraud attempts. Additionally, combining sentiment analysis with transactional data can help identify suspicious activities and prevent fraud.
 
 ### 1.1.8 Enhancing Security Policies
-By analyzing feedback and sentiments regarding security policies, organizations can refine policies to improve compliance and bolster security measures.
+By analyzing the sentiments expressed by employees and customers regarding security policies, organizations can identify areas where security policies may be causing frustration or confusion and improve them. Additionally, developing better engagement strategies based on sentiment analysis can help ensure compliance and foster a positive security culture within the organization.
 
 # 2. Sentiment Analysis in Cybersecurity Data Science: The Emojify Project
 
 ## 2.1 Project Overview
-The Emojify project demonstrates the application of NLP techniques in cybersecurity by building an Emojifier model that predicts appropriate emojis based on input text sentiment.
+The Emojify project aims to use word vector representations to build an Emojifier, a model that inputs a sentence and finds the most appropriate emoji to be used with the sentence. The project demonstrates the application of NLP techniques and sequence models in real-world scenarios, showcasing the practical use of sentiment analysis in enhancing communication.
 
 ## 2.2 Building the Emojifier
-The project utilizes pre-trained word embeddings and LSTM models to enhance sentiment classification accuracy, showcasing advanced techniques in NLP for cybersecurity applications.
+The project begins with creating an embedding layer in Keras using pre-trained word vectors. A baseline model (Emojifier-V1) is implemented using word embeddings, followed by a more sophisticated model (Emojifier-V2) that incorporates an LSTM. The LSTM model helps in capturing the context and sequential nature of the input text, improving the accuracy of emoji prediction.
 
 ## 2.3 Achievements and Results
-Emojify successfully implemented word embeddings and LSTM models to improve sentiment analysis accuracy, highlighting their effectiveness in cybersecurity data science projects.
+The Emojify project successfully created an embedding matrix and demonstrated the advantages of the GloVe algorithm. A sentiment classifier was built using word embeddings, and a more sophisticated classifier using an LSTM was trained. The project highlights the importance of word embeddings and sequence models in sentiment analysis, showcasing their effectiveness in improving the accuracy of sentiment classification tasks.
 
 # 3. Conclusion
+Sentiment analysis is a versatile tool that significantly enhances various aspects of cybersecurity. From threat detection and incident response to employee behavior analysis and fraud detection, sentiment analysis plays a crucial role in improving security measures. The Emojify project demonstrates the practical application of NLP techniques and sequence models in real-world cybersecurity scenarios, highlighting the importance of sentiment analysis in enhancing cybersecurity strategies. By leveraging sentiment analysis, organizations can gain deeper insights, enhance their security measures, and better protect their assets and reputation. This report underscores the vital role that sentiment analysis plays in modern cybersecurity practices and showcases my ability to implement these techniques effectively.
 
-Sentiment analysis enriches cybersecurity practices by providing actionable insights from textual data, thereby bolstering threat detection, incident response, and overall security strategies. The Emojify project exemplifies the practical application of sentiment analysis in cybersecurity data science, underscoring its critical role in modern cybersecurity frameworks.
+## 4. References
 
-# Citations
+- **Academic Papers and Articles**:
+  - [Bolukbasi et al., 2016, Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings](https://arxiv.org/abs/1607.06520)
+  - [Jeffrey Pennington, Richard Socher, and Christopher D. Manning](https://nlp.stanford.edu/projects)
+- **Courses**:
+  - [Ng, A., Katanforoosh, K., & Mourri, Y. (n.d.). Sequence Models. DeepLearning.AI, Coursera.](https://www.coursera.org/learn/nlp-sequence-models)
+
 
 - [NCBI Article on Sentiment Analysis in Cybersecurity](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8979735/)
 
 
 
 
-## Introduction
 
-
-
-
-## 1. Importance of Sentiment Analysis in Cybersecurity
-
-### 1.1 Threat Detection and Monitoring
-
-
-### 1.2 Cyber Threat Intelligence
-
-
-### 1.3 Incident Response
-
-
-### 1.4 Phishing Detection
-
-### 1.5 Brand and Reputation Management
-
-
-### 1.6 Employee Behavior Analysis
-
-### 1.7 Fraud Detection
-
-
-### 1.8 Enhancing Security Policies
-By analyzing the sentiments expressed by employees and customers regarding security policies, organizations can identify areas where security policies may be causing frustration or confusion and improve them. Additionally, developing better engagement strategies based on sentiment analysis can help ensure compliance and foster a positive security culture within the organization.
-
-## 2. Sentiment Analysis in Cybersecurity Data Science: The Emojify Project
-
-### 2.1 Project Overview
-The Emojify project aims to use word vector representations to build an Emojifier, a model that inputs a sentence and finds the most appropriate emoji to be used with the sentence. The project demonstrates the application of NLP techniques and sequence models in real-world scenarios, showcasing the practical use of sentiment analysis in enhancing communication.
-
-### 2.2 Building the Emojifier
-The project begins with creating an embedding layer in Keras using pre-trained word vectors. A baseline model (Emojifier-V1) is implemented using word embeddings, followed by a more sophisticated model (Emojifier-V2) that incorporates an LSTM. The LSTM model helps in capturing the context and sequential nature of the input text, improving the accuracy of emoji prediction.
-
-### 2.3 Achievements and Results
-The Emojify project successfully created an embedding matrix and demonstrated the advantages of the GloVe algorithm. A sentiment classifier was built using word embeddings, and a more sophisticated classifier using an LSTM was trained. The project highlights the importance of word embeddings and sequence models in sentiment analysis, showcasing their effectiveness in improving the accuracy of sentiment classification tasks.
-
-## Conclusion
-Sentiment analysis is a versatile tool that significantly enhances various aspects of cybersecurity. From threat detection and incident response to employee behavior analysis and fraud detection, sentiment analysis plays a crucial role in improving security measures. The Emojify project demonstrates the practical application of NLP techniques and sequence models in real-world cybersecurity scenarios, highlighting the importance of sentiment analysis in enhancing cybersecurity strategies. By leveraging sentiment analysis, organizations can gain deeper insights, enhance their security measures, and better protect their assets and reputation. This report underscores the vital role that sentiment analysis plays in modern cybersecurity practices and showcases my ability to implement these techniques effectively.
-
-## Citations
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8979735/
