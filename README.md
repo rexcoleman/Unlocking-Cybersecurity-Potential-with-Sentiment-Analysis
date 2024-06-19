@@ -3,6 +3,8 @@
 ## Introduction
 Sentiment analysis, a subfield of natural language processing (NLP), is a powerful tool for understanding and categorizing emotions expressed in textual data. In cybersecurity, sentiment analysis plays a crucial role in detecting potential threats, understanding employee sentiments, and monitoring public perception. This report explores the various applications of sentiment analysis in cybersecurity, with a specific focus on the Emojify project, which demonstrates the practical application of NLP techniques and sequence models in real-world cybersecurity scenarios.
 
+![GloVe_Emoji](img/think_like_a_hacker.png)
+
 ## 1. Importance of Sentiment Analysis in Cybersecurity
 
 ### 1.1 Threat Detection and Monitoring
