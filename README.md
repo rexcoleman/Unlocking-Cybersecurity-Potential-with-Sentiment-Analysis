@@ -65,17 +65,7 @@ Sentiment analysis is a versatile tool that significantly enhances various aspec
 ## 4. References
 
 - **Academic Papers and Articles**:
-  - [Bolukbasi et al., 2016, Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings](https://arxiv.org/abs/1607.06520)
-  - [Jeffrey Pennington, Richard Socher, and Christopher D. Manning](https://nlp.stanford.edu/projects)
+  - [Pennington et. al., 2014. GloVe: Global vectors for word representation](https://aclanthology.org/D14-1162/)
+  - [Rajawat et al., 2022, Dark Web Data Classification Using Neural Network](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8979735/)
 - **Courses**:
   - [Ng, A., Katanforoosh, K., & Mourri, Y. (n.d.). Sequence Models. DeepLearning.AI, Coursera.](https://www.coursera.org/learn/nlp-sequence-models)
-
-
-- [NCBI Article on Sentiment Analysis in Cybersecurity](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8979735/)
-
-
-
-
-
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8979735/
